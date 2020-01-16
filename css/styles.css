@@ -51,6 +51,13 @@ h1, h2, h4, h5{
   color: white;
 }
 
+@media (max-width: 768px) {
+	#nav-list {
+		margin: 0;
+		align-items: flex-end;
+	}
+} 	
+
 
 /*//////////////////////////first Section ////////////////////*/
 
@@ -452,6 +459,7 @@ h1, h2, h4, h5{
 }
 
 .s8-logo-t1{
+	background-color: white; /*for mobile version*/
 	width: 140px;
 	height: 140px;
 	border-radius: 70px;
@@ -462,6 +470,7 @@ h1, h2, h4, h5{
 	box-shadow: 10px 10px 9px -5px rgb(158, 158, 158);
 }
 .s8-logo-t2{
+	background-color: white; /*for mobile version*/
 	margin: 20px 0 0 50px;
 	width: 100px;
 	height: 100px;
@@ -489,6 +498,7 @@ h1, h2, h4, h5{
 }
 
 #contact {
+	background-color: white; /*for mobile version*/
 	padding:70px 50px 70px 50px;
 	margin:50px 0;
 	box-shadow:10px 10px 100px -5px #d4d4d4;
